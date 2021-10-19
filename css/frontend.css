@@ -1,0 +1,94 @@
+
+@font-face {
+	font-family: 'countDownText';
+	src: url('../fonts/text/text-LightSemiExt.eot?') format('eot'), 
+	     url('../fonts/text/text-LightSemiExt.otf')  format('opentype'),
+	     url('../fonts/text/text-LightSemiExt.woff') format('woff'), 
+	     url('../fonts/text/text-LightSemiExt.ttf')  format('truetype'),
+	     url('../fonts/text/text-LightSemiExt.svg#MyriadPro-LightSemiExt') format('svg');
+}
+
+
+@font-face {
+    font-family: 'countDownTitle';
+    src: url('../fonts/text/josefinsans-semibold-webfont.eot');
+    src: url('../fonts/text/josefinsans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/text/josefinsans-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/text/josefinsans-semibold-webfont.woff') format('woff'),
+         url('../fonts/text/josefinsans-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/text/josefinsans-semibold-webfont.svg#josefin_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'num';
+    src: url('../fonts/num/carre-webfont.eot');
+    src: url('../fonts/num/carre-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/num/carre-webfont.woff2') format('woff2'),
+         url('../fonts/num/carre-webfont.woff') format('woff'),
+         url('../fonts/num/carre-webfont.ttf') format('truetype'),
+         url('../fonts/num/carre-webfont.svg#carreregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.countDownTitle{
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: countDownTitle;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+#note {
+    margin: 0 auto;
+    text-align: center;
+    width: 100% !important;
+}
+
+#note div {
+    display: inline-block;
+    width: 80px;
+    font-size: 14px;
+    background-color: #2a2a2a;
+    margin-right: 7px;
+    border-radius: 10px;
+    border: 3px solid #494949;
+    font-family: countDownText;
+    padding: 10px 0; 
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;	
+}
+#note div span{
+    display: block;
+    font-size: 40px;
+    font-family: sans-serif;
+    line-height: 1;
+    padding-bottom: 5px;
+}
+
+.expireContent{
+    text-align: center;
+}
+
+/* Responsive */
+@media screen and (max-width: 440px){
+    #note div {
+	    width: 22.5%;
+	    font-size: 12px;
+	    padding: 8px 0;
+	    margin-right: 0.5%; 
+	    box-sizing: border-box;
+	}
+	#note div:last-child(){
+		margin-right: 0px;
+	}
+	#note div span{
+	    font-size: 30px;
+	    line-height: 1;
+	    padding-bottom: 5px;
+	}
+}

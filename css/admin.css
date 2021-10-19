@@ -1,0 +1,57 @@
+.clear{	clear:both;}
+#accordion a{
+	text-decoration: none;
+}
+.panel-collapse .panel-body > div{
+	margin-bottom: 10px;
+}
+.label{
+	float: left;
+	width: 25%;
+	margin-bottom: 10px;
+}
+.labelvalue{
+	float: left;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+}
+input.labelvalue[type="text"] {
+    border-color: #b0b0b0;
+	width: 30%;
+}
+input.labelvalue[type="text"]:focus{
+    border-color: #5b9dd9;
+}
+.option {
+    border: 1px solid #0073aa;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}	
+.option-heading h4 {
+    background: #0073aa none repeat scroll 0 0;
+    color: #fff;
+    margin: 0;
+    padding: 10px 20px;
+}
+.option-body{
+    padding: 20px;
+}
+.sp-replacer{
+	margin-bottom: 10px !important;
+}
+.time-options{
+	background-color: #32373C;
+	padding:20px;
+	border-radius: 4px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.display-none{
+	display: none;	
+}
+.hideTitle{
+	margin-bottom: 25px;
+}
+.option-body select{
+	width: 15%;
+}
